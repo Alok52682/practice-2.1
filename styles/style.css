@@ -124,6 +124,7 @@ main {
 .popular-collection {
     /* border: 1px solid coral; */
     width: 1047px;
+    margin-bottom: 100px;
 }
 
 .collection-title {
@@ -139,6 +140,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .collection {
@@ -197,4 +199,57 @@ main {
     font-weight: 700;
     font-size: 14px;
     margin: 0;
+}
+
+.popular-collection .see-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popular-collection span a {
+    color: #E02C6D;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*-------------------
+  Feature stylesheet 
+---------------------*/
+.feature-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.feature-info {
+    width: 610px;
+    height: 224px;
+    margin-left: 96px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.feature-exp {
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+
+.feature-info .join a {
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
 }
